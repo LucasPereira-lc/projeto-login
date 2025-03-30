@@ -21,7 +21,7 @@
     }
 }
 
-@media screen and (min-width: 992px) and (min-height: 900px) {
+@media screen and (min-width: 992px) {
     body {
         background: linear-gradient(127deg, rgba(156,151,151,1) 8%, rgba(159,114,76,1) 27%, rgba(113,63,15,1) 51%, rgba(54,27,3,1) 81%);
     }
