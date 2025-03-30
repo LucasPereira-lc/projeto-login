@@ -3,7 +3,7 @@
 /* Paleta de cores 
     Marrom: #3A2218
     Verde:  #99C24D
-    Cinza:  #606D5D
+    Cinza:  
 */
 
 * {
@@ -14,7 +14,7 @@
 }
 
 html, body {
-    background-color: #606D5D;
+    background-color: rgb(83, 81, 81);
     width: 100vw;
     height: 100vh;
 }
@@ -36,13 +36,21 @@ section#login {
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
+
+    transition: width .3s, height 3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem {
+    display: block;
     background: url(../imagens/img-login.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: 200px;
 }
 
-section#login > div#formulario
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
