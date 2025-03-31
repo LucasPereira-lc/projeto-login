@@ -54,3 +54,64 @@ section#login > div#formulario {
     display: block;
     padding: 10px;
 }
+
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+}
+
+form > div.campo {
+    display: block;
+    background-color: #BA5810;
+    width: 100%;
+    height: 40px;
+    margin: 5px 0px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+div.campo > label {
+    display: none;
+}
+
+form > input[type=submit] {
+    display: block;
+    background-color: #5B2F0F;
+    color: white;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form > input[type=submit]:hover {
+    background-color: #80583b;
+}
+
+form > a.botao {
+    display: block;
+    background-color: white;
+    text-align: center;
+    color: #80583b;
+    padding: 5px;
+    width: 100%;
+    height: 40px;
+    text-decoration: none;
+    border: 1.5px solid #5B2F0F;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+form > a.botao:hover {
+    background-color: #af876b;
+}
+
+form > a > i {
+    vertical-align: middle;
+}
