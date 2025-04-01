@@ -81,6 +81,7 @@ form > div.campo > i {
 }
 
 div.campo > input {
+    display: block;
     width: calc(100% - 44px);
     height: 100%;
     border-radius: 8px;
