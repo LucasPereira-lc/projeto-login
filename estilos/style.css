@@ -38,7 +38,7 @@ section#login {
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.336);
 
-    transition: width .3s, height 3s;
+    transition: width .3s, height .3s;
     transition-timing-function: ease;
 }
 
@@ -66,12 +66,31 @@ div#formulario > p {
 
 form > div.campo {
     display: block;
-    background-color: #BA5810;
-    width: 100%;
+    background-color:#BA5810;
     height: 40px;
     margin: 5px 0px;
-    border-radius: 5px;
-    vertical-align: middle;
+    border-radius: 8px;
+    
+}
+
+form > div.campo > i {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+div.campo > input {
+    height: 100%;
+    width: calc(100% - 44px);
+    transform: translate(43px, -42px);
+    border-radius: 8px;
+    border: 1px solid #BA5810;
+    background-color: #d1cac3;
+}
+
+div.campo > input:focus {
+    background-color: white;
 }
 
 div.campo > label {
