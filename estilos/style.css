@@ -86,7 +86,7 @@ div.campo > input {
     border-radius: 8px;
     border: 1px solid rgba(0,11,80,1);
     background-color: #d1cac3;
-    transform: translateY(-10px);
+    transform: translate(43px, -42px);
     padding: 4px;
 }
 
