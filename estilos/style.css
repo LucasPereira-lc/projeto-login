@@ -67,7 +67,7 @@ div#formulario > p {
 form > div.campo {
     display: flex;
     align-items: center;
-    background-color:rgba(0,11,80,1);
+    background-color:rgb(206, 118, 46);
     height: 40px;
     margin: 5px 0px;
     border-radius: 8px;
