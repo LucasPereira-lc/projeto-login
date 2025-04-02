@@ -65,29 +65,29 @@ div#formulario > p {
 }
 
 form > div.campo {
-    display: block;
+    display: flex;
+    align-items: center;
     background-color:rgba(0,11,80,1);
     height: 40px;
     margin: 5px 0px;
     border-radius: 8px;
-    
+    padding: 5px;
 }
 
 form > div.campo > i {
     color: white;
     font-size: 2em;
-    width: 40px;
     padding: 5px;
 }
 
 div.campo > input {
-    width: calc(100% - 44px);
+    flex: 1;
     height: 100%;
+    border: none;
     border-radius: 8px;
-    border: 1px solid rgba(0,11,80,1);
     background-color: #d1cac3;
-    transform: translate(43px, -42px);
-    padding: 4px;
+    padding: 5px;
+    outline: none;
 }
 
 div.campo > input:focus {
