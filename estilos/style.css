@@ -76,7 +76,7 @@ form > div.campo {
 
 form > div.campo > i {
     color: white;
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 5px;
 }
 
@@ -99,7 +99,7 @@ div.campo > label {
 }
 
 form > input[type=submit] {
-    background-color: #adadad;
+    background-color: #5B2F0F;
     color: white;
     font-size: 1em;
     width: 100%;
